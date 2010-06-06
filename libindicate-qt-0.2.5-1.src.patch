@@ -1,0 +1,13 @@
+--- origsrc/libindicate-qt-0.2.5/src/CMakeLists.txt	2010-03-10 03:44:53.000000000 -0600
++++ src/libindicate-qt-0.2.5/src/CMakeLists.txt	2010-05-03 01:07:21.752763300 -0500
+@@ -24,7 +24,9 @@ target_link_libraries(indicate-qt
+     )
+ 
+ install(TARGETS indicate-qt
+-    LIBRARY DESTINATION lib${LIB_SUFFIX})
++    LIBRARY DESTINATION lib${LIB_SUFFIX}
++    RUNTIME DESTINATION bin
++    ARCHIVE DESTINATION lib${LIB_SUFFIX})
+ 
+ install(DIRECTORY .
+     DESTINATION include/libindicate-qt

@@ -1,0 +1,5 @@
+inherit qt4-cmake
+
+
+HOMEPAGE="https://launchpad.net/libindicate-qt"
+SRC_URI="http://launchpad.net/libindicate-qt/trunk/${PV}/+download/${P}.tar.bz2"
